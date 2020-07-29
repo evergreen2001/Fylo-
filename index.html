@@ -6,6 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+<link rel="stylesheet" href="/styles/bootstrap.min.css">
+<link rel="stylesheet" href="/styles/main.css">
+
+
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,15 +20,77 @@
 </head>
 <body>
 
-  Features
-  Team
-  Sign In
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light p-5">
+      <a class="navbar-brand"
+        ><img src="./images/logo.svg" class="img-fluid logo" alt="logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        data-target="#my-nav"
+        data-toggle="collapse"
+        aria-controls="my-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      ></button>
 
-  All your files in one secure location, accessible anywhere.
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              ><span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav auto ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Features <span></span></a>
+          </li>
 
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Team <span></span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Sign in<span></span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="row content1">
+
+      <div class="col-lg-7 mt-5">
+  <h2>
+  
+    All your files in one secure <br>location, accessible anywhere.</h2>
+
+<p class="mt-3">
   Fylo stores your most important files in one secure location. 
   Access them wherever you need, share and collaborate with friends, 
   family, and co-workers.
+
+
+</p>
+
+<input type="email" name="" id="" class=" m-3">
+  <button class="btnx btn m-3">Get Started</button>
+      </div>
+
+
+      <div class="col-lg-5">
+        <img src="/images/illustration-1.svg" alt="heroimage" class="img-fluid">
+      </div>
+    </div>
+  
+
+  </div>
+
+ 
+
 
   Get Started
 
