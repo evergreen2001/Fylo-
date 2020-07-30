@@ -15,8 +15,14 @@ p,
 span {
   font-size: 16px;
 }
+
+
 /* button styles and input styles */
 
+
+.navbar{
+  font-size:12px;
+}
 .btnx{
 outline:none;
 border: none;
@@ -44,7 +50,7 @@ h2 {
   width: 100%;
 }
 .logo {
-  width: 70%;
+  width: 50%;
 }
 
 .how{
@@ -85,7 +91,7 @@ h1 {
 .content2,
 .content3 {
   margin-top: 200px;
-  margin-bottom:200px;
+  
 }
 
 .content2{
